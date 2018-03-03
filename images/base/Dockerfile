@@ -1,6 +1,6 @@
 FROM phusion/baseimage:latest
 
-MAINTAINER Serban Teodorescu, teodorescu.serban@gmail.com
+MAINTAINER Ahmed Elbougha, ahmed.elbougha@gmail.com 
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV LANG en_US.UTF-8
