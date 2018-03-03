@@ -1,4 +1,4 @@
-FROM tawgeeh/base:latest
+FROM tawgeeh/docker-base:latest
 
 # Copy over the list of `apt` requirements and install them using Postgres's repo.
 RUN mkdir -p /srv/tmp
