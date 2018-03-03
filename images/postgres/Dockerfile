@@ -1,4 +1,4 @@
-FROM tawgeeh/postgres_base:latest
+FROM tawgeeh/postgres-base:latest
 
 # Copy over the config. files.
 COPY pg_hba.conf postgresql.conf /etc/postgresql/9.4/main/
